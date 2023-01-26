@@ -69,7 +69,7 @@ app.get("/sewa/:id", (req,res) => {
         else {
             response = {
                 count : result.length,
-                siswa : result
+                penyewa : result
             }
         }
         res.json(response)
